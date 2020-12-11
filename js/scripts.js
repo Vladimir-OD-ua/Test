@@ -2,8 +2,8 @@ const compareList = [];
 const favouritesList = [];
 
 const scripts = () => {
-    const selectHeader = document.querySelectorAll('.scripts-header');
-    let selectItem = document.querySelectorAll('.scripts-item');
+    const selectHeader = document.querySelectorAll('.select-header');
+    let selectItem = document.querySelectorAll('.select-item');
 
     selectHeader.forEach(item=> {
         item.addEventListener('click', selectToggle)
@@ -12,15 +12,15 @@ const scripts = () => {
     selectItem.forEach(item=> {
         item.addEventListener('click', selectChoose)
     });
-    
+
     function selectToggle() {
         this.parentElement.classList.toggle('is-active');
     }
-    
+
     function selectChoose() {
         let text = this.innerText,
-            select = this.closest('.scripts'),
-            selectCurrent = select.querySelector('.scripts-current');
+            select = this.closest('.select'),
+            selectCurrent = select.querySelector('.select-current');
         selectCurrent.innerText = text;
         selectCurrent.classList.add('dirty');
         select.classList.remove('is-active');
@@ -30,11 +30,11 @@ const scripts = () => {
 scripts();
 
 const reset = () => {
-    const selects = document.querySelectorAll('.scripts');
+    const selects = document.querySelectorAll('.select');
 
     selects.forEach(select => {
-        if (!select.classList.contains('category-scripts'))
-            select.querySelector('.scripts-current').innerText = '';
+        if (!select.classList.contains('category-select'))
+            select.querySelector('.select-current').innerText = '';
     });
 
     const inputs = document.querySelectorAll('.filter-price-input');
