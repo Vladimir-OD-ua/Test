@@ -1,0 +1,113 @@
+@media (max-width:1270px) {
+    .test-logo {
+        width: auto;
+    }
+    .content-menu {
+        width: 18%;
+    }
+    .product-card {
+        padding: 10px;
+    }
+}
+
+@media (max-width:1200px) {
+    .callback {
+        flex-direction: column;
+    }
+
+    .callback-btn {
+        width: 100%;
+    }
+    .test-content {
+        margin-bottom: 20px;
+    }
+    .filter-container-nav-item {
+        padding: 0;
+    }
+    .filter-select {
+        width: 175px;
+    }
+    .catalog-product-cards {
+        flex-wrap: wrap;
+    }
+    .product-card {
+        width: 50%;
+    }
+    .product-card-img {
+        margin: auto;
+    }
+    .product-card-characteristic {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:992px) {
+    .test-container {
+        margin-top: 20px;
+    }
+    .test-logo {
+        display: none;
+    }
+    .callback {
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    .callback-btn {
+        width: auto;
+    }
+    .test-content {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .web-site-menu {
+        margin-top: 20px;
+    }
+    .content-menu {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .callback {
+        flex-direction: column;
+    }
+    .callback-btn {
+        width: 100%;
+    }
+    .test-content {
+        margin-bottom: 45px;
+    }
+    .filter-container-nav-item {
+        flex-direction: column;
+    }
+    .filter-container-cvg-img {
+        max-height: 40px;
+        margin: 0;
+    }
+    .tab-bg {
+        margin: 10px 20px;
+    }
+    .filter-select-section {
+        flex-direction: column;
+    }
+    .filter-select {
+        width: 100%;
+        margin-top: 5px;
+    }
+    .select-media {
+        width: 49%;
+    }
+    .filter-container {
+        max-height: 100%;
+    }
+    .product-card-rating {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .product-card-tidings-img {
+        width: 80px;
+    }
+    .product-card-tidings-name {
+        left: 56%;
+    }
+}
