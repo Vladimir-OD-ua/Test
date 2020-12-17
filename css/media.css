@@ -39,6 +39,21 @@
     .product-card-characteristic {
         margin-bottom: 30px;
     }
+    .subscription-form-input {
+        min-width: 280px;
+    }
+    .footer-web-surfing-block {
+        min-width: 120px;
+    }
+    .footer-logo {
+        width: 140px;
+    }
+    .footer-info-section {
+        padding-top: 15px;
+    }
+    .functional-footer-section {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width:992px) {
@@ -64,6 +79,37 @@
     }
     .content-menu {
         display: none;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .mobile-menu-btn {
+        display: block;
+    }
+    .functional-footer-section {
+        flex-direction: column;
+    }
+    .subscription-footer-section {
+        margin-right: 0;
+    }
+    .subscription-footer-title-container {
+        align-items: center;
+    }
+    .subscription-container {
+        justify-content: center;
+    }
+    .subscription-form-input {
+        min-width: 340px;
+    }
+    .footer-section-web-surfing {
+        justify-content: space-around;
+        margin-top: 25px;
+    }
+    .footer-info-section {
+        flex-direction: column;
+    }
+    .footer-info-social-linc {
+        margin: 20px 0;
     }
 }
 
