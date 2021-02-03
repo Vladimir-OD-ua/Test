@@ -156,4 +156,97 @@
     .product-card-tidings-name {
         left: 56%;
     }
+    .container-filter-and-search {
+        margin: 0;
+    }
+}
+
+@media (max-width:515px) {
+    .catalog-product-cards {
+        flex-direction: column;
+    }
+    .product-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .subscription-container {
+        flex-direction: column;
+    }
+    .subscription-form-input {
+        min-width: 200px;
+        height: 50px;
+        padding: 0 15px;
+    }
+    .footer-section-web-surfing {
+        flex-direction: column;
+        align-items: center;
+    }
+    .surfing-block-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .surfing-block-link {
+        font-size: 20px;
+    }
+    .footer-web-surfing-block {
+        width: 100%;
+        margin: 0;
+    }
+    .select-filter-price {
+        flex-direction: column;
+    }
+    .select-media {
+        min-width: 220px;
+        margin-bottom: 10px;
+    }
+    .filter-container-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .filter-container-nav-menu {
+        flex-wrap: wrap;
+    }
+    .filter-container-nav-item {
+        width: 50%;
+    }
+    .search-container-form {
+        flex-direction: column;
+    }
+    .category-select {
+        padding: 20px 0 20px 0;
+        width: 100%;
+    }
+    .category-select-body {
+        top: 100%;
+    }
+    .category-select-header {
+        border: none;
+    }
+    .form-input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .btn-search {
+        width: 100%;
+    }
+    .site-function-container {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .site-function {
+        padding: 5px 16px;
+    }
+    .callback {
+        width: 100%;
+        height: 100px;
+    }
+    .callback-phone-number {
+        flex-direction: column;
+        width: 100%;
+    }
+    .callback-modal-body {
+        min-width: auto;
+        min-height: auto;
+    }
 }
